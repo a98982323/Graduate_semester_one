@@ -1,0 +1,203 @@
+the way: 2
+the index: 2048
+the cache_count: 4
+-------------------------------------------
+cache_index = 0
+cache_tag = 00000000
+CACHE MISS
+tag_value = 00000000 
+cache_addr: 00000000  cache_data: 3c1a0000 
+tag_value = 00000000 
+cache_addr: 00000004  cache_data: 8f5a0044 
+tag_value = 00000000 
+cache_addr: 00000008  cache_data: 3c1d0800 
+tag_value = 00000000 
+cache_addr: 0000000c  cache_data: 3c1a0000 
+now we have total 1 cache miss  &  0 cache hit
+-------------------------------------------
+cache_index = 0
+cache_tag = 00000000
+CACHE HIT
+PC_add: 4
+use way: 0
+now we have total 1 cache miss  &  1 cache hit
+block_value is 1 
+pc_ins is 8f5a0044 
+-------------------------------------------
+cache_index = 0
+cache_tag = 00000000
+CACHE HIT
+PC_add: 8
+use way: 0
+now we have total 1 cache miss  &  2 cache hit
+block_value is 2 
+pc_ins is 3c1d0800 
+-------------------------------------------
+cache_index = 0
+cache_tag = 00000000
+CACHE HIT
+PC_add: 12
+use way: 0
+now we have total 1 cache miss  &  3 cache hit
+block_value is 3 
+pc_ins is 3c1a0000 
+-------------------------------------------
+cache_index = 1
+cache_tag = 00000000
+CACHE MISS
+tag_value = 00000000 
+cache_addr: 00000010  cache_data: 375a8000 
+tag_value = 00000000 
+cache_addr: 00000014  cache_data: 0340f809 
+tag_value = 00000000 
+cache_addr: 00000018  cache_data: 00000000 
+tag_value = 00000000 
+cache_addr: 0000001c  cache_data: 3c1a0000 
+now we have total 2 cache miss  &  3 cache hit
+-------------------------------------------
+cache_index = 1
+cache_tag = 00000000
+CACHE HIT
+PC_add: 20
+use way: 0
+now we have total 2 cache miss  &  4 cache hit
+block_value is 1 
+pc_ins is 0340f809 
+-------------------------------------------
+cache_index = 1
+cache_tag = 00000000
+CACHE HIT
+PC_add: 24
+use way: 0
+now we have total 2 cache miss  &  5 cache hit
+block_value is 2 
+pc_ins is 00000000 
+-------------------------------------------
+cache_index = 0
+cache_tag = 00000001
+CACHE MISS
+tag_value = 00000001 
+cache_addr: 00008000  cache_data: 00004021 
+tag_value = 00000001 
+cache_addr: 00008004  cache_data: 00004821 
+tag_value = 00000001 
+cache_addr: 00008008  cache_data: 00005021 
+tag_value = 00000001 
+cache_addr: 0000800c  cache_data: 214a000a 
+now we have total 3 cache miss  &  5 cache hit
+-------------------------------------------
+cache_index = 0
+cache_tag = 00000001
+CACHE HIT
+PC_add: 32772
+use way: 1
+now we have total 3 cache miss  &  6 cache hit
+block_value is 1 
+pc_ins is 00004821 
+-------------------------------------------
+cache_index = 0
+cache_tag = 00000001
+CACHE HIT
+PC_add: 32776
+use way: 1
+now we have total 3 cache miss  &  7 cache hit
+block_value is 2 
+pc_ins is 00005021 
+-------------------------------------------
+cache_index = 0
+cache_tag = 00000001
+CACHE HIT
+PC_add: 32780
+use way: 1
+now we have total 3 cache miss  &  8 cache hit
+block_value is 3 
+pc_ins is 214a000a 
+-------------------------------------------
+cache_index = 1
+cache_tag = 00000001
+CACHE MISS
+tag_value = 00000001 
+cache_addr: 00008010  cache_data: 21080001 
+tag_value = 00000001 
+cache_addr: 00008014  cache_data: 11480003 
+tag_value = 00000001 
+cache_addr: 00008018  cache_data: 00000000 
+tag_value = 00000001 
+cache_addr: 0000801c  cache_data: 01284820 
+now we have total 4 cache miss  &  8 cache hit
+-------------------------------------------
+cache_index = 1
+cache_tag = 00000001
+CACHE HIT
+PC_add: 32788
+use way: 1
+now we have total 4 cache miss  &  9 cache hit
+block_value is 1 
+pc_ins is 11480003 
+-------------------------------------------
+cache_index = 1
+cache_tag = 00000001
+CACHE HIT
+PC_add: 32792
+use way: 1
+now we have total 4 cache miss  &  10 cache hit
+block_value is 2 
+pc_ins is 00000000 
+-------------------------------------------
+cache_index = 1
+cache_tag = 00000001
+CACHE HIT
+PC_add: 32796
+use way: 1
+now we have total 4 cache miss  &  11 cache hit
+block_value is 3 
+pc_ins is 01284820 
+-------------------------------------------
+cache_index = 2
+cache_tag = 00000001
+CACHE MISS
+tag_value = 00000001 
+cache_addr: 00008020  cache_data: 21080001 
+tag_value = 00000001 
+cache_addr: 00008024  cache_data: 00000000 
+tag_value = 00000001 
+cache_addr: 00008028  cache_data: 03e00008 
+tag_value = 00000001 
+cache_addr: 0000802c  cache_data: 00000000 
+now we have total 5 cache miss  &  11 cache hit
+-------------------------------------------
+cache_index = 2
+cache_tag = 00000001
+CACHE HIT
+PC_add: 32804
+use way: 0
+now we have total 5 cache miss  &  12 cache hit
+block_value is 1 
+pc_ins is 00000000 
+-------------------------------------------
+cache_index = 2
+cache_tag = 00000001
+CACHE HIT
+PC_add: 32808
+use way: 0
+now we have total 5 cache miss  &  13 cache hit
+block_value is 2 
+pc_ins is 03e00008 
+-------------------------------------------
+cache_index = 2
+cache_tag = 00000001
+CACHE HIT
+PC_add: 32812
+use way: 0
+now we have total 5 cache miss  &  14 cache hit
+block_value is 3 
+pc_ins is 00000000 
+-------------------------------------------
+cache_index = 1
+cache_tag = 00000000
+CACHE HIT
+PC_add: 28
+use way: 0
+now we have total 5 cache miss  &  15 cache hit
+block_value is 3 
+pc_ins is 00000001 

@@ -1,0 +1,155 @@
+pc_addr is : 0
+***********************************************
+This function i going to do : LUI
+And the instruction is : 3c1a0000 
+The fuction description is : GPR[rt] ← immediate || 0
+Result:
+immediate is : 0
+rt is 26 AND $26 is 0
+***********************************************
+***********************************************
+This function i going to do : LW
+And the instruction is : 8f5a0044 
+The fuction description is : GPR[rt] ← memory[GPR[base] + offset]
+Result:
+base is 26 AND $26 is 0
+offset is : 68
+memory address is : 68
+rt is 26 AND $26 is 1112493908
+***********************************************
+pc_addr is : 8
+***********************************************
+This function i going to do : LUI
+And the instruction is : 3c1d0800 
+The fuction description is : GPR[rt] ← immediate || 0
+Result:
+immediate is : 2048
+rt is 29 AND $29 is 134217728
+***********************************************
+pc_addr is : 12
+***********************************************
+This function i going to do : LUI
+And the instruction is : 3c1a0000 
+The fuction description is : GPR[rt] ← immediate || 0
+Result:
+immediate is : 0
+rt is 26 AND $26 is 0
+***********************************************
+***********************************************
+This function i going to do : ORI
+And the instruction is : 375a8000 
+The fuction description is : GPR[rt] ← GPR[rs] or immediate
+Result:
+imm is : 32768
+rt is 26 AND $26 is 32768
+rs is 26 AND $26 is 32768
+***********************************************
+pc_addr is : 20
+***********************************************
+This function i going to do : JALR
+And the instruction is : 0340f809 
+The fuction description is : To execute a procedure call to an instruction address in a register
+Result:
+rs is 26 AND $26 is 32768
+jump_PC is : 32768
+rd is 31 AND $31 is 28
+***********************************************
+pc_addr is : 24
+***********************************************
+This function i going to do : NOP
+And the instruction is : 00000000 
+The fuction description is : To perform no operation
+***********************************************
+pc_addr is : 32768
+***********************************************
+This function i going to do : LUI
+And the instruction is : 3c032000 
+The fuction description is : GPR[rt] ← immediate || 0
+Result:
+immediate is : 8192
+rt is 3 AND $3 is 536870912
+***********************************************
+***********************************************
+This function i going to do : ADDIU
+And the instruction is : 24040001 
+The fuction description is : GPR[rt] ← GPR[rs] + immediate
+Result:
+rs is 0 AND $0 is 0
+immediate is : 1
+rt is 4 AND $4 is 1
+***********************************************
+***********************************************
+This function i going to do : SW
+And the instruction is : ac640000 
+The fuction description is : memory[GPR[base] + offset] ← GPR[rt]
+Result:
+base is 3 AND $3 is 536870912
+offset is : 0
+memory address is : 536870912
+rt is 4 AND $4 is 1
+***********************************************
+***********************************************
+This function i going to do : ADDI
+And the instruction is : 20840001 
+The fuction description is : GPR[rt] ← GPR[rs] + immediate
+Result:
+rs is 4 AND $4 is 2
+immediate is : 1
+rt is 4 AND $4 is 2
+***********************************************
+***********************************************
+This function i going to do : SW
+And the instruction is : ac640004 
+The fuction description is : memory[GPR[base] + offset] ← GPR[rt]
+Result:
+base is 3 AND $3 is 536870912
+offset is : 4
+memory address is : 536870916
+rt is 4 AND $4 is 2
+***********************************************
+***********************************************
+This function i going to do : LW
+And the instruction is : 8c650000 
+The fuction description is : GPR[rt] ← memory[GPR[base] + offset]
+Result:
+base is 3 AND $3 is 536870912
+offset is : 0
+memory address is : 536870912
+rt is 5 AND $5 is 1
+***********************************************
+***********************************************
+This function i going to do : ADD
+And the instruction is : 00852020 
+The fuction description is : GPR[rd] ← GPR[rs] + GPR[rt]
+Result:
+rs is 4 AND $4 is 3
+rt is 5 AND $5 is 1
+rd is 4 AND $4 is 3
+***********************************************
+***********************************************
+This function i going to do : SW
+And the instruction is : ac640008 
+The fuction description is : memory[GPR[base] + offset] ← GPR[rt]
+Result:
+base is 3 AND $3 is 536870912
+offset is : 8
+memory address is : 536870920
+rt is 4 AND $4 is 3
+***********************************************
+***********************************************
+This function i going to do : JR
+And the instruction is : 03e00008 
+The fuction description is : To execute a branch to an instruction address in a register
+Result:
+rs is 31 AND $31 is 28
+jump_PC is : 28
+***********************************************
+***********************************************
+This function i going to do : ADDU
+And the instruction is : 00001021 
+The fuction description is : GPR[rd] ← GPR[rs] + GPR[rt]
+Result:
+rs is 0 AND $0 is 0
+rt is 0 AND $0 is 0
+rd is 2 AND $2 is 0
+***********************************************
